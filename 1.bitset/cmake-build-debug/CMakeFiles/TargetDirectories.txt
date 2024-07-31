@@ -1,0 +1,3 @@
+/Users/and/CLionProjects/bitset/cmake-build-debug/CMakeFiles/bitset.dir
+/Users/and/CLionProjects/bitset/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/and/CLionProjects/bitset/cmake-build-debug/CMakeFiles/rebuild_cache.dir
