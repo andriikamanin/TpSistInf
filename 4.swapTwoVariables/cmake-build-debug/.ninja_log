@@ -1,0 +1,11 @@
+# ninja log v6
+1	466	1722420759558804722	CMakeFiles/swapTwoVariables.dir/main.cpp.o	b2af10e832ed060
+467	562	1722420760024756251	swapTwoVariables	5a8037ca1774abcb
+3	452	1722420910769064088	CMakeFiles/swapTwoVariables.dir/main.cpp.o	b2af10e832ed060
+452	542	1722420911218187516	swapTwoVariables	5a8037ca1774abcb
+3	299	1722420947052370139	CMakeFiles/swapTwoVariables.dir/main.cpp.o	b2af10e832ed060
+300	331	1722420947348642317	swapTwoVariables	5a8037ca1774abcb
+4	293	1722420973343397497	CMakeFiles/swapTwoVariables.dir/main.cpp.o	b2af10e832ed060
+293	324	1722420973633036299	swapTwoVariables	5a8037ca1774abcb
+4	324	1722421029660553756	CMakeFiles/swapTwoVariables.dir/main.cpp.o	b2af10e832ed060
+324	356	1722421029980408824	swapTwoVariables	5a8037ca1774abcb
