@@ -1,0 +1,3 @@
+/Users/and/CLionProjects/bitwiseOperations/cmake-build-debug/CMakeFiles/bitwiseOperations.dir
+/Users/and/CLionProjects/bitwiseOperations/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/and/CLionProjects/bitwiseOperations/cmake-build-debug/CMakeFiles/rebuild_cache.dir
