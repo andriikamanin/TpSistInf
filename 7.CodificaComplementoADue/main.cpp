@@ -19,13 +19,15 @@ void inputNumeroDecimale(int &numero) {
     cin>>numero;
 }
 
-void codificaComplementoADue(int &numero) {
-    bitset<MAX_BIT> bits(numero);
-    cout<<"Numero binario "<<numero<<" e' "<<bits<<endl;
-    if(numero<0) {
-        bits= ~bits;
-        bits = bits.to_ulong() + 1;
+void codificaComplementoADue(int &numero){
+    if(numero>0){
+        cout<<"Numero binario: "<<bitset<MAX_BITS>(numero)<<endl;
+    }else{
+        bitset<MAX_BITS> complemento(-numero);
+        complemento = ~complemento;
+        complemento = complemento.to_ulong() + 1;
+        cout<<"Complemento a due: "<<complemento;
     }
-    cout<<"Complemento a 2 di "<<numero<<" e' "<<bits<<endl;
 }
+
 
