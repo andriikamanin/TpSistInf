@@ -21,12 +21,13 @@ void conversioneDaDecimaleABinario() {
     cout<<"Numero binario: "<< bitsetBinario.to_string()<<endl;
 }
 
-void conversioneDaBinarioADecimale() {
+void conversioneDaBinarioADecimale(){
     string numeroBinario;
-    cout<<"Inserisci un numero binario: ";
-    cin>>numeroBinario;
+    cout << "Inserisci un numero binario: ";
+    cin >> numeroBinario;
 
-    cout<<"Numero decimale: "<<bitset<8>(numeroBinario).to_ulong()<<endl;
+    bitset<8> bitsetBinario(numeroBinario); 
+    cout << "Numero decimale di " << numeroBinario << " è " << bitsetBinario.to_ulong() << endl;
 }
 
 void start() {
