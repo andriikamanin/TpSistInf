@@ -7,14 +7,14 @@ void inputBinario(bitset<8>&numeroBinario) {
     cout<<"Inserisci un numero binario di 8 bit:";
     cin>>numeroBinario;
 }
-<<<<<<< HEAD
+
 bitset<8> inputMaskBinarioPerAND(){
     bitset<8>bitwiseMaskAND;
     cout<<"Inserisci bitwise mask: ";
     cin>>bitwiseMaskAND;
     return bitwiseMaskAND;
 }
-=======
+
 
 void bitwiseAND(bitset<8>numeroBinario){
     bitset<8>bitwiseMask = inputMaskBinarioPerAND();
