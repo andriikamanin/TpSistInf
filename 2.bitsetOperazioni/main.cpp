@@ -53,11 +53,15 @@ void bitsetDellaStringa(string &stringa) {
     cout<<"Bitset della stringa "<<stringa<<" :"<<bitsetStringa<<endl;
 }
 
-void setIndividualBits(string &stringa) {
+//Поменять значения бита на 1 в определнной позиции.
+//set(pos, value) где pos это позиция бита, value значение (true - 1, false - 0), если написать посто set() то все биты станут 1
+void setIndividualBits(string &stringa) { 
     bitset<8> bitsetStringa(stringa);
     bitsetStringa.set(2);
     cout<<"Bitset della stringa "<<stringa<<" :"<<bitsetStringa<<endl;
 }
+
+//инвертация определенного бита. если написать flip() то все биты инвертируються 
 void flipIndividualBits(string &stringa) {
     bitset<8> bitsetStringa(stringa);
     cout<<"Inserisci bit da flipare: ";
@@ -66,7 +70,7 @@ void flipIndividualBits(string &stringa) {
     bitsetStringa.flip(bitForFlip);
     cout<<"Bitset della stringa "<<stringa<<" :"<<bitsetStringa<<endl;
 }
-
+//используеться для сброса определенного бита до 0. Если написать reset() то все биты будут равны 0
 void resetIndividualBit(string &stringa) {
     bitset<8> bitsetStringa(stringa);
     cout<<"Inserisci bit per reset: ";
