@@ -16,7 +16,16 @@ bitset<8> inputMaskBinarioPerAND(){
 }
 =======
 
-
+void bitwiseAND(bitset<8>numeroBinario){
+    bitset<8>bitwiseMask = inputMaskBinarioPerAND();
+    
+    //cout<<"Mask binario: "<<bitwiseMask<<endl;
+    //<<"Numero binario: "<<numeroBinario<<endl;
+    
+    bitset<8>bitwiseRisultato = numeroBinario & bitwiseMask;
+    cout<<"Bitwise AND risultato: "<<bitwiseRisultato<<endl;
+    
+}
 
 >>>>>>> 723a5fb99a090c7d562f05dbfa1da802fa20adcb
 
