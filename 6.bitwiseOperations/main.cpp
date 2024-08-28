@@ -8,10 +8,15 @@ void inputBinario(bitset<8>&numeroBinario) {
     cin>>numeroBinario;
 }
 
-void bitwiseAND(bitset<8>&numeroBinario) {
-    bitset<8>binaryMask = 0b11001100;
-    bitset<8>resultAND = numeroBinario & binaryMask;
-    cout<<"Bitwise AND result: "<<resultAND<<endl;
+void bitwiseAND(bitset<8>numeroBinario){
+    bitset<8>bitwiseMask = inputMaskBinarioPerAND();
+    
+    //cout<<"Mask binario: "<<bitwiseMask<<endl;
+    //<<"Numero binario: "<<numeroBinario<<endl;
+    
+    bitset<8>bitwiseRisultato = numeroBinario & bitwiseMask;
+    cout<<"Bitwise AND risultato: "<<bitwiseRisultato<<endl;
+    
 }
 void bitwiseOR(bitset<8>&numeroBinario) {
     bitset<8>binaryMask = 0b00110011;
