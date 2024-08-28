@@ -7,12 +7,18 @@ void inputBinario(bitset<8>&numeroBinario) {
     cout<<"Inserisci un numero binario di 8 bit:";
     cin>>numeroBinario;
 }
+<<<<<<< HEAD
 bitset<8> inputMaskBinarioPerAND(){
     bitset<8>bitwiseMaskAND;
     cout<<"Inserisci bitwise mask: ";
     cin>>bitwiseMaskAND;
     return bitwiseMaskAND;
 }
+=======
+
+
+
+>>>>>>> 723a5fb99a090c7d562f05dbfa1da802fa20adcb
 
 void bitwiseOR(bitset<8>&numeroBinario) {
     bitset<8>binaryMask = 0b00110011;
