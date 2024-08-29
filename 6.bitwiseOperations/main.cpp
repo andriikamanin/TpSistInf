@@ -2,11 +2,36 @@
 #include <bitset>
 using namespace std;
 
+void inputBinario(bitset<8>&numeroBinario);
+bitset<8> inputMaskBinarioPerAND();
+void bitwiseAND(bitset<8>numeroBinario);
+
+bitset<8> inputMaskBinarioPerOR();
+
+void bitwiseOR(bitset<8>&numeroBinario);
+
+bitset<8> inputMaskBinarioPerXOR();
+
+void bitwiseOR(bitset<8>&numeroBinario);
+
+
+int main() {
+    bitset<8>numeroBinario;
+    inputBinario(numeroBinario);
+    bitwiseAND(numeroBinario);
+    bitwiseOR(numeroBinario);
+    bitwiseXOR(numeroBinario);
+    return 0;
+}
+
 void inputBinario(bitset<8>&numeroBinario) {
 
     cout<<"Inserisci un numero binario di 8 bit:";
     cin>>numeroBinario;
 }
+
+
+
 
 bitset<8> inputMaskBinarioPerAND(){
     bitset<8>binaryMaskAND;
@@ -51,14 +76,4 @@ void bitwiseOR(bitset<8>&numeroBinario) {
     bitset<8>binaryMask = inputMaskBinarioPerXOR();
     bitset<8>bitwiseXOR = numeroBinario | binaryMask;
     cout<<"Bitwise OR risultato: "<<biwiseXOR<<endl;
-}
-
-
-int main() {
-    bitset<8>numeroBinario;
-    inputBinario(numeroBinario);
-    bitwiseAND(numeroBinario);
-    bitwiseOR(numeroBinario);
-    bitwiseXOR(numeroBinario);
-    return 0;
 }
