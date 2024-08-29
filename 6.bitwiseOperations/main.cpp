@@ -41,6 +41,7 @@ bitset<8> inputMaskBinarioPerAND(){
 }
 
 
+
 void bitwiseAND(bitset<8>numeroBinario){
     bitset<8>binaryMask = inputMaskBinarioPerAND();
     
