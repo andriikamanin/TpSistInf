@@ -22,7 +22,7 @@ void generatoreDiNumeriPrimi(bitset<MAX_BITS>&primo){
     for(int i=2; i<= sqrt(MAX_BITS); ++i){
         if(primo[i]){
             for(int j = i*i; j<MAX_BITS; j += i){
-                primo[j] = 0;
+                primo.reset(j);
             }
         }
     }
