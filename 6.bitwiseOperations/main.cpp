@@ -9,30 +9,35 @@ void inputBinario(bitset<8>&numeroBinario) {
 }
 
 bitset<8> inputMaskBinarioPerAND(){
-    bitset<8>bitwiseMaskAND;
-    cout<<"Inserisci bitwise mask: ";
-    cin>>bitwiseMaskAND;
-    return bitwiseMaskAND;
+    bitset<8>binaryMaskAND;
+    cout<<"Inserisci binary mask: ";
+    cin>>binaryMaskAND;
+    return binaryMaskAND;
 }
 
 
 void bitwiseAND(bitset<8>numeroBinario){
-    bitset<8>bitwiseMask = inputMaskBinarioPerAND();
+    bitset<8>binaryMask = inputMaskBinarioPerAND();
     
-    //cout<<"Mask binario: "<<bitwiseMask<<endl;
+    //cout<<"Mask binario: "<<binaryMask<<endl;
     //<<"Numero binario: "<<numeroBinario<<endl;
     
-    bitset<8>bitwiseRisultato = numeroBinario & bitwiseMask;
+    bitset<8>bitwiseRisultato = numeroBinario & binaryMask;
     cout<<"Bitwise AND risultato: "<<bitwiseRisultato<<endl;
     
 }
 
->>>>>>> 723a5fb99a090c7d562f05dbfa1da802fa20adcb
+bitset<8> inputMaskBinarioPerOR(){
+    bitset<8>binaryMaskOR;
+    cout<<"Inserisci binary mask: ";
+    cin>>binaryMaskOR;
+    return binaryMaskOR;
+}
 
 void bitwiseOR(bitset<8>&numeroBinario) {
-    bitset<8>binaryMask = 0b00110011;
-    bitset<8>resultOR = numeroBinario | binaryMask;
-    cout<<"Bitwise OR result: "<<resultOR<<endl;
+    bitset<8>binaryMask = inputMaskBinarioPerOR();
+    bitset<8>bitwiseOR = numeroBinario | binaryMask;
+    cout<<"Bitwise OR result: "<<biwiseOR<<endl;
 }
 
 void bitwiseXOR(bitset<8>&numeroBinario) {
